@@ -10,6 +10,7 @@
 body {
     background-color: #f4f4f4;
     font-family: 'Montserrat';
+    min-height: 100vh;
 }
 
 .header {
@@ -54,24 +55,36 @@ body {
     color: #fff;
 }
 
-#menu > li {
+#menu > a {
     padding: 0 10px;
     color: #fff;
 }
 
-#menu > li:hover {
+#menu > a:hover {
     color: #733c8c;
 }
 
+#menu > a:link {
+    text-decoration: none;
+}
+
+
 .post-main {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-image: url(/src/img/invictus_cover.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#header_emp {
+#people {
+    background-color: #733c8c;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+.header_section {
     font-family: 'Poppins';
     font-size: 2em;
     text-align: center;
@@ -115,6 +128,17 @@ body {
 .black_arrow_left {
     width: 15px;
     transform: rotate(180deg);
+}
+
+.companies_logo {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.logo_companies {
+    width: 250px;
+    padding: 1.5em;
 }
 
 .footer {
