@@ -142,15 +142,30 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #383838;
+    color: #fff;
     width: 100%;
     height: 200px;
 }
 
+.footer_part_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
 #logo_footer {
-    width: 200px;
-    height: 30%;
-    margin-top: 20px;
+    width: 100px;
+    height: 40%;
+}
+
+#address_link {
+    color: #fff;
+    font-size: .8em;
+    text-decoration: none;
 }
 
 #footer_section {
